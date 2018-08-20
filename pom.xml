@@ -97,6 +97,9 @@
     <vaadin.version>10.0.3</vaadin.version>
     <meecrowave.version>1.2.3</meecrowave.version>
 
+    <!--Properties for Vaadin Directory-->
+    <Vaadin-Package-Version>1</Vaadin-Package-Version>
+    <Vaadin-Addon>${project.build.finalName}.${project.packaging}</Vaadin-Addon>
   </properties>
 
   <repositories>
@@ -288,11 +291,29 @@
       <!--For Vaadin Directory deployment-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <index>true</index>
+            <manifest>
+              <addClasspath>false</addClasspath>
+              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+            </manifest>
+            <manifestEntries>
+              <Vaadin-Package-Version>${Vaadin-Package-Version}</Vaadin-Package-Version>
+
+            </manifestEntries>
+          </archive>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
           <appendAssemblyId>false</appendAssemblyId>
           <descriptors>
-            <descriptor>_data/assembly/assembly.xml</descriptor>
+            <descriptor>assembly/assembly.xml</descriptor>
           </descriptors>
         </configuration>
         <executions>

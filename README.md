@@ -80,7 +80,7 @@ In this example a demo view with no special meaning.
 In the test folders you will find a fully working demo app to show 
 a dummy implementation. If you want to see samo more examples, for example how to use this with Shiro,
 have a look at 
-[https://github.com/Nano-Vaadin-Demos/nano-vaadin-meecrowave-shiro-V10]{https://github.com/Nano-Vaadin-Demos/nano-vaadin-meecrowave-shiro-V10}
+[https://github.com/Nano-Vaadin-Demos/nano-vaadin-meecrowave-shiro-V10](https://github.com/Nano-Vaadin-Demos/nano-vaadin-meecrowave-shiro-V10)
 
 ## ROADMAP
 * I18n will be added

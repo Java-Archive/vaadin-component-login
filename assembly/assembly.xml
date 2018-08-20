@@ -31,7 +31,7 @@
 
     <fileSets>
         <fileSet>
-            <directory>..</directory>
+            <directory>../</directory>
             <includes>
                 <include>LICENSE</include>
                 <include>README.md</include>
@@ -51,7 +51,7 @@
         <!-- This is vaadin.com/directory related manifest needed in the 
             zip package -->
         <file>
-            <source>_data/assembly/MANIFEST.MF</source>
+            <source>assembly/MANIFEST.MF</source>
             <outputDirectory>META-INF</outputDirectory>
             <filtered>true</filtered>
         </file>

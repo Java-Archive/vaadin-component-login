@@ -42,7 +42,7 @@ public class VaadinApp extends VerticalLayout implements HasLogger {
     UI            current        = UI.getCurrent();
     VaadinSession currentSession = current.getSession();
     Object        attribute      = currentSession.getAttribute(LOGGED_IN);
-    Boolean       isLoggedIn     = (attribute != null) ? Boolean.valueOf((String) attribute) : Boolean.FALSE;
+    Boolean       isLoggedIn     = (attribute != null) ? (Boolean)attribute : Boolean.FALSE;
     // DON NOT USE THIS IN PRODUCTION !!
 
 
