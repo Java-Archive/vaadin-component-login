@@ -24,7 +24,7 @@
   <parent>
     <groupId>org.rapidpm</groupId>
     <artifactId>rapidpm-dependencies</artifactId>
-    <version>04.00.06-RPM-SNAPSHOT</version>
+    <version>04.00.06-RPM</version>
   </parent>
 
   <groupId>org.rapidpm.vaadin</groupId>
@@ -90,8 +90,8 @@
 
 
     <!--RapidPM-->
-    <rapidpm-functional-reactive.version>00.07.05-RPM-SNAPSHOT</rapidpm-functional-reactive.version>
-    <rapidpm-dependencies.version>04.00.06-RPM-SNAPSHOT</rapidpm-dependencies.version>
+    <rapidpm-functional-reactive.version>00.07.05-RPM</rapidpm-functional-reactive.version>
+    <rapidpm-dependencies.version>04.00.06-RPM</rapidpm-dependencies.version>
 
     <!--Vaadin-->
     <vaadin.version>10.0.4</vaadin.version>

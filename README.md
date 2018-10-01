@@ -3,6 +3,11 @@
  <img src="https://vaadin.com/images/hero-reindeer.svg" width="200" height="200" /></a>
 </center>
 
+
+>IMPORTAND This component is replaced to
+>[https://github.com/vaadin-developer/vaadin-components](https://github.com/vaadin-developer/vaadin-components)
+
+
 # RapidPM Vaadin Component - Login
 A simple Login Screen - boring but usefull ;-)
 This is for Vaadin 10, build on a JDK10 but with 
